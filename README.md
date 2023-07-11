@@ -21,6 +21,11 @@ const encodingPlugin = require('@boutdecode/encoding/yion/encoding-plugin')
 const app = createApp()
 const server = createServer(app, [encodingPlugin])
 
+app.get('/', (req, res) => {
+  res.set('Content-Encoding', 'gzip')
+  res.send('Hello world')
+})
+
 server.listen(8080)
 ```
 

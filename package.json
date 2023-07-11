@@ -1,6 +1,6 @@
 {
   "name": "@boutdecode/encoding",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Encoding lib by boutdecode",
   "main": "index.js",
   "scripts": {
