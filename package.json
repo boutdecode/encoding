@@ -1,6 +1,6 @@
 {
   "name": "@boutdecode/encoding",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Encoding lib by boutdecode for Yion",
   "main": "plugin/encoding.js",
   "scripts": {
