@@ -23,9 +23,9 @@ const server = createServer(app)
 
 app.use(encoding())
 
-app.get('/', (req, res) => {
-  res.set('Content-Encoding', 'gzip')
-  res.send('Hello world')
+app.get('/', ({ res }) => {
+    res.set('Content-Encoding', 'gzip')
+    res.send('Hello world')
 })
 
 server.listen(8080)
