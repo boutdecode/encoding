@@ -1,7 +1,7 @@
 {
   "name": "@boutdecode/encoding",
   "version": "1.0.0",
-  "description": "Encoding lib by boutdecode",
+  "description": "Encoding lib by boutdecode for Yion",
   "main": "index.js",
   "scripts": {
     "test": "npm run cs",
