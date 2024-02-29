@@ -2,11 +2,11 @@
   "name": "@boutdecode/encoding",
   "version": "1.0.0",
   "description": "Encoding lib by boutdecode for Yion",
-  "main": "index.js",
+  "main": "plugin/encoding.js",
   "scripts": {
     "test": "npm run cs",
-    "fix-cs": "eslint --fix yion index.js",
-    "cs": "eslint yion index.js"
+    "fix-cs": "eslint --fix plugin",
+    "cs": "eslint plugin"
   },
   "repository": {
     "type": "git",

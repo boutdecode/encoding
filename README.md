@@ -16,10 +16,12 @@ For yion :
 
 ```javascript
 const { createApp, createServer } = require('@boutdecode/yion')
-const encodingPlugin = require('@boutdecode/encoding/yion/encoding-plugin')
+const encoding = require('@boutdecode/encoding')
 
 const app = createApp()
-const server = createServer(app, [encodingPlugin])
+const server = createServer(app)
+
+app.use(encoding())
 
 app.get('/', (req, res) => {
   res.set('Content-Encoding', 'gzip')
