@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/boutdecode/encoding/compare/v2.0.1...v2.0.2) (2024-09-12)
+
+
+### Bug Fixes
+
+* Deps ([91be5f7](https://github.com/boutdecode/encoding/commit/91be5f745242bc2b870890bba09c0d6c9a509a1f))
+
 ## [2.0.1](https://github.com/boutdecode/encoding/compare/v2.0.0...v2.0.1) (2024-02-29)
 
 
